@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 62,
+        "name": "verify cases page",
+        "description": "",
+        "id": "understand-the-concept-of-tags-in-cucumber;verify-cases-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 299554300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": ":cases page link is available on home screen",
+            "match": {
+              "location": "TagsDemo.cases_page_link_is_available_on_home_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": ": navigate to cases page",
+            "match": {
+              "location": "TagsDemo.navigate_to_cases_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 61,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 77,
+        "name": "Verify Forms page",
+        "description": "",
+        "id": "understand-the-concept-of-tags-in-cucumber;verify-forms-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": ": Forms link is avialble on Home page",
+            "match": {
+              "location": "TagsDemo.forms_link_is_avialble_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31400,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": ": Click on Forms page",
+            "match": {
+              "location": "TagsDemo.click_on_Forms_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 76,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 87,
+        "name": "verify user can create multiple forms",
+        "description": "",
+        "id": "understand-the-concept-of-tags-in-cucumber;verify-user-can-create-multiple-forms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47900,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": ":user is able to create a single form",
+            "match": {
+              "location": "TagsDemo.user_is_able_to_create_a_single_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32900,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": ": Create multiple forms",
+            "match": {
+              "location": "TagsDemo.create_multiple_forms()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 86,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Understand the concept of Tags in Cucumber",
+    "description": "",
+    "id": "understand-the-concept-of-tags-in-cucumber",
+    "keyword": "Feature",
+    "uri": "B:/Eclipse/Workspace/Frameworks/Cucumber_BDD_Framework/src/main/java/Features/TagsInCucumber.feature"
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.299765">
+<testcase classname="Understand the concept of Tags in Cucumber" name="verify cases page" time="0.299597">
+<system-out><![CDATA[Given :cases page link is available on home screen..........................passed
+Then : navigate to cases page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Understand the concept of Tags in Cucumber" name="Verify Forms page" time="0.000087">
+<system-out><![CDATA[Given : Forms link is avialble on Home page.................................passed
+Then : Click on Forms page..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Understand the concept of Tags in Cucumber" name="verify user can create multiple forms" time="0.000081">
+<system-out><![CDATA[Given :user is able to create a single form.................................passed
+Then : Create multiple forms................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
